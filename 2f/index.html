@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teclado Virtual</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="image-container">
+        <img src="http://oscardeguru.com/wp-content/uploads/2016/08/big-ben-londres-inglaterra.jpg" alt="Dica para a senha" id="hintImage" width="300" height="200">
+    </div>
+    <div class="container">
+        <div class="display">
+            <label id="displayLabel"></label>
+        </div>
+        <div class="buttons">
+            <button onclick="addChar('A')">A</button>
+            <button onclick="addChar('B')">B</button>
+            <button onclick="addChar('C')">C</button>
+            <button onclick="addChar('U')">U</button>
+            <button onclick="addChar('E')">E</button>
+            <button onclick="addChar('F')">F</button>
+            <button onclick="addChar('G')">G</button>
+            <button onclick="addChar('H')">H</button>
+            <button onclick="addChar('I')">I</button>
+            <button onclick="addChar('J')">J</button>
+            <button onclick="addChar('R')">R</button>
+            <button onclick="addChar('N')">N</button>
+            <button onclick="confirmText()">Confirmar</button>
+            <button onclick="clearLastChar()">Apagar</button>
+            <button onclick="clearText()">Limpar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
